@@ -59,10 +59,43 @@ main{
 
 .linea{
     margin-top: 30px;
-    border-bottom: #979C9A solid 2px;
+    margin-bottom: 30px;
+    border-bottom: #E1E3E3 solid 1px;
     width: 470px;
+    
 }
 
 /* Titulos Terminados */
 /* Falta re-ajustar la altura y cambiar color de linea*/
 
+.label{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #B6BBC4 solid 2px;
+    border-radius: 10px;
+    height: 50px;
+    width: 470px;
+}
+
+/*Comienzo de boton*/
+
+.login{
+    width: 480px;
+    height: 46px;
+
+    background-color: #367bf6;
+    color: #fff;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 14px;
+}
+
+/*Formulario Realizado*/
