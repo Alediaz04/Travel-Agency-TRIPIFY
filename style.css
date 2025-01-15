@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif, Arial;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: #ced5f0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    border-radius: 3% ;
+    background-color: #fff;
+    width: 600px;
+    height: 750px;
+}
+
+.content{
+    margin: 1% 10% 2% 10%;
+    
+}
+
+.head{
+    width: 480px;
+    
+}
+
+.icon{
+    display: flex;
+    justify-content: end;
+    font-size: 45px;
+    color: #367bf6;
+    position: relative;
+    right: 100px;
+    top: 50px;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+}
+
+.sub-title{
+    
+    font-size: 30px;
+    
+}
+
+.text{
+    margin-top: -16px;
+    font-size: 15px;
+    color: #5D6063;
+}
+
+.linea{
+    margin-top: 30px;
+    border-bottom: #979C9A solid 2px;
+    width: 470px;
+}
+
+/* Titulos Terminados */
+/* Falta re-ajustar la altura y cambiar color de linea*/
+
