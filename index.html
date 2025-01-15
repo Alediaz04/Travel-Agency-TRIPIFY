@@ -3,35 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/twitter.svg">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Loggin/TRIPIFY</title>
 </head>
 <body>
-    <body>
+    <main>
         <section id="principal" class="card">
-            <i></i>
-            <h1>TRIPIFY</h1>
-            <h3>Explore your dream destinations</h3>
-            <p>Welcome to Tripify! Please enter your login credentials to access your account and explore our wide range of travel options.</p>
+            <i class="bi bi-twitter icon"></i>
+            <h1 class="title">TRIPIFY</h1>
+            <h3 class="sub-title">Explore your dream destinations</h3>
+            <p class="text">Welcome to Tripify! Please enter your login credentials to access your account and explore our wide range of travel options.</p>
             
-            <div class="form">
-                <form action="">
-                    <label for="">Email</label>
-                    <input type="email">
+            
+            <form action="">
+                <label for="" class="label email">Email</label>
+                <input type="email" class="input">
                     
-                    <label for="">Password</label>
-                    <input type="password">
-                    <button type="submit">LOG IN</button>
+                <label for="" class="label password">Password</label>
+                <input type="password" class="input">
+                
+                <button type="submit" class="login">LOG IN</button>
                     
-                </form>
+            </form>
 
-            </div>
-            <div>
-                <p>Don´t have an account? <a href="#">Register</a></p>
+            <div class="footer">
+                <p class="register">Don´t have an account? <a href="#">Register</a></p>
             </div>
 
 
         </section>
-    </body>
+
+    </main>
     
 </body>
 </html>
