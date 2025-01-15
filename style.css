@@ -16,7 +16,7 @@ main{
     border-radius: 3% ;
     background-color: #fff;
     width: 600px;
-    height: 750px;
+    height: 730px;
 }
 
 .content{
@@ -54,7 +54,7 @@ main{
 .text{
     margin-top: -16px;
     font-size: 15px;
-    color: #5D6063;
+    color: #54575B;
 }
 
 .linea{
@@ -66,7 +66,6 @@ main{
 }
 
 /* Titulos Terminados */
-/* Falta re-ajustar la altura y cambiar color de linea*/
 
 .label{
     font-size: 16px;
@@ -96,6 +95,29 @@ main{
     border-radius: 8px;
 
     font-size: 14px;
+
+    transition: 0.3s ease-in;
+}
+.login:hover{
+    background-color: #2306cc;
+    scale: 1.06;
 }
 
 /*Formulario Realizado*/
+
+.footer{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 13px;
+    color: #54575B;
+}
+
+.footer p a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+.noRegister:hover{
+    font-weight: 800;
+}
